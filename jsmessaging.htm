@@ -11,18 +11,8 @@
     <ul id="messages"></ul>
     <input id="textbox" type="text">
     <button id="button">Send</button>
-    <script>
-        var messages = document.getElementById("messages");
-        var textbox = document.getElementById("textbox");
-        var button = document.getElementById("button");
-
-        button.addEventListener("click", function() {
-            var newMessage = document.createElement("li");
-            newMessage.innerHTML = textbox.value;
-            messages.appendChild(newMessage);
-            textbox.value = "";
-        });
-    </script>
+    <img src="gameimage.jpg">
+    <script src="script.js"></script>
 </body>
 
 </html>
